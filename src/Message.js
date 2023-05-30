@@ -1,5 +1,15 @@
+import './index.css';
+
+
 function Message(){
-    return<h1>Coucou le monde !</h1>;
+    return<div className="font-ff">
+
+            <h1>BIENVENUE SUR MNSGAMES !!</h1>
+            <p>GZGVZVZNGRZNGJZFQGFFHGHGRTJKJHGWHGB</p>
+            <image href="./assets/images/logo/MNS_Games_Inverted_Color_2400x1800.jpg"></image>
+        </div>;
+
+    
 }
 
 export default Message;

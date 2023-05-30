@@ -1,10 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import 'bootstrap/dist/css/bootstrap.css';
+import { createRoot } from "react-dom/client";
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './index.css';
+import "./assets/fonts/FreckleFace-Regular.ttf";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById("root");
+const root = createRoot(container);
+
 root.render(
   <React.StrictMode>
     <App />

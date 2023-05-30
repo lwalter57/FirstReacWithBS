@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Freckle Face';
+  /*Can be any text*/
+  src: local('FreckleFace'),
+    url('./assets/fonts/FreckleFace-Regular.ttf') format("truetype");
+}
+
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+text-align: center;
+color: rgba(0, 0, 255, 0.668);
+font-size: 50px;
+}
+
+.font-ff{
+  font-family: 'Freckle Face';
+  font-size: 40px;
+}
+
+#root{
+    background-color: orange;
+}
+
+html{
+background-color: orange;
+
+}
